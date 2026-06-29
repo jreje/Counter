@@ -24,3 +24,7 @@ h1 {
     /* Transition to background color in .3s */
     transition: background-color 0.3s;
 }
+
+.buttons:hover {
+    background-color: darkcyan;
+}

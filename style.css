@@ -13,13 +13,14 @@ h1 {
     margin: 1rem;
 }
 
-button {
-    padding: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+.buttons {
+    padding: 5px 10px;
     font-size: 1rem;
+    color: white;
     background-color:cadetblue;
     border-radius: 5px;
-    margin:0;
-    color: white;
+    /* Turn the cursor into a pointer when hovering over the button */
+    cursor: pointer;
+    /* Transition to background color in .3s */
+    transition: background-color 0.3s;
 }
